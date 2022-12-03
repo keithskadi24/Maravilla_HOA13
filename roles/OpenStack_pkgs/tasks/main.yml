@@ -1,0 +1,7 @@
+- name: OpenStack packages Installation
+  apt:
+    name:
+      - nova-compute
+      - python3-openstackclient
+    state: present
+    update_cache: yes
